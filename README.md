@@ -9,4 +9,9 @@ mode that will dump to your local Wireshark to be able to view the packets.
 
 UPDATE:
 
-I have now rewrote the scirpt in Batch as a .bat file, you can download the Rar file it also contains Putty.exe which the scirpts uses to SSH to the device. have NOT yet finished the shell script for linux
+I have now rewrote the scirpt in Batch as a .bat file, you can download all the needed files here I also posted Putty.exe which the scirpts uses to SSH to the device. crate a folder in your downloads called UNIFI and copy all contents to it and it should work. for all other issues refeer to the code. 
+
+There may be a few bugs, if you find some please feel free to message me and il try fix it as soon as I can 
+
+!NOTE!
+I Still have NOT yet finished the shell script for linux
