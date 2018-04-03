@@ -9,4 +9,4 @@ mode that will dump to your local Wireshark to be able to view the packets.
 
 UPDATE:
 
-I have now rewrote the scirpt in Batch as a .bat file, you can download the Rar file it also contains Putty.exe which the scirpts uses to SSH to the device.
+I have now rewrote the scirpt in Batch as a .bat file, you can download the Rar file it also contains Putty.exe which the scirpts uses to SSH to the device. have NOT yet finished the shell script for linux
