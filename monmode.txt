@@ -1,0 +1,8 @@
+ifconfig ath0 down
+ifconfig ath1 down
+wlanconfig ath0 destroy
+wlanconfig ath1 destroy
+wlanconfig mon0 create wlandev wifi0 wlanmode monitor
+wlanconfig mon1 create wlandev wifi1 wlanmode monitor
+mon0 up
+mon1 up
