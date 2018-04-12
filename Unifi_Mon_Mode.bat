@@ -8,7 +8,7 @@ FOR /F "usebackq" %%i IN (`hostname`) DO SET HOST=%%i
 cls 
 
 echo.
-echo Wellcome %HOST%
+echo Wellcome %USERNAME%
 echo This tool is for Unifi pro
 echo to set the monitor mode
 echo on the Router
@@ -53,7 +53,7 @@ echo.
 echo Will Now Atempt to SSH to the UNIFI Router
 echo.
 Pause
-start C:\Users\%HOST%\Downloads\unifi\putty.exe -ssh 192.168.1.20 -l "ubnt" -pw "ubnt"
+start C:\Users\%USERNAME%\Downloads\unifi\putty.exe -ssh 192.168.1.20 -l "ubnt" -pw "ubnt"
 cls
 goto: Menu1
 
@@ -64,7 +64,7 @@ echo will not attemp to set monitor mode
 echo. 
 pause
 cls
-putty.exe -m C:\Users\%HOST%\Downloads\unifi\monmode.txt
+putty.exe -m C:\Users\%USERNAME%\Downloads\unifi\monmode.txt
 cls
 goto: Menu1
 
