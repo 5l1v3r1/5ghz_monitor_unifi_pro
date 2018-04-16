@@ -54,6 +54,7 @@ echo Will Now Atempt to SSH to the UNIFI Router
 echo.
 Pause
 start C:\Users\%USERNAME%\Downloads\unifi\putty.exe -ssh 192.168.1.20 -l "ubnt" -pw "ubnt"
+start Unifi_Mon_Mode.bat
 cls
 goto: Menu1
 
@@ -349,4 +350,3 @@ cls
 putty.exe -m tcpdump -i mon0 -vvv && tcpdump -i mon1 -vvv 
 cls 
 GOTO: :dumpsesh
-
